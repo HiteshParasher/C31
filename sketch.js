@@ -10,7 +10,7 @@ var divisionHeight=200;
 var score = 0;
 function setup() {
 createCanvas(700,700);
-engine = Engine.World;
+engine = engine.world;
 world = engine.world;
 ground = new Ground(width/2,height,width,20);
 
