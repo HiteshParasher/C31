@@ -1,18 +1,18 @@
-var  Engine = Matter.Engine,
-world = Matter.World,
-Events = Matter.Events,
-Bodies = Matter.Bodies;
+const Engine = Matter.Engine,
+const World = Matter.World,
+const Events = Matter.Events,
+const Bodies = Matter.Bodies;
 
 var particles = []
 var plinkos = []
 var divisions = []
-var divisionHight=200;
+var divisionHeight=200;
 var score = 0;
 function setup() {
 createCanvas(700,700);
-engien = Engien.World;
-World = Engine.World;
-ground = new Ground(wight/2,hight,width,20);
+engine = Engine.World;
+world = engine.world;
+ground = new Ground(width/2,height,width,20);
 
 
 for(var k = 0; k <=width; k = k + 80) {
